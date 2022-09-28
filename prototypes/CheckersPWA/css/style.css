@@ -34,25 +34,15 @@ h1 {
 }
 .board {
     display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     background: #555;
-    width: 100%;
-}
-.board:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
+    max-width: 500pt;
 }
 .white-square {
-  position: relative;
   background: #fff;
-  width: 12.5%;
-  height: 12.5%;
 }
 .black-square {
-  position: relative;
   background: #000;
-  width: 12.5%;
-  height: 12.5%;
 }
 .white-square:after {
   content: "";
