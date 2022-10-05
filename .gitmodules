@@ -1,0 +1,3 @@
+[submodule "prototypes/minimal-pwa"]
+	path = prototypes/minimal-pwa
+	url = https://github.com/IanSkelskey/minimal-pwa
