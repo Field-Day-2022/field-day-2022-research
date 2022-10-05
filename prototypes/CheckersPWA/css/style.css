@@ -11,7 +11,7 @@ body {
   font-size: 1rem;
 }
 main {
-  max-width: 900px;
+  max-width: 500pt;
   margin: auto;
   padding: 0.5rem;
   text-align: center;
@@ -34,25 +34,14 @@ h1 {
 }
 .board {
     display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
     background: #555;
-    width: 100%;
-}
-.board:after {
-  content: "";
-  display: block;
-  padding-bottom: 100%;
 }
 .white-square {
-  position: relative;
   background: #fff;
-  width: 12.5%;
-  height: 12.5%;
 }
 .black-square {
-  position: relative;
   background: #000;
-  width: 12.5%;
-  height: 12.5%;
 }
 .white-square:after {
   content: "";
