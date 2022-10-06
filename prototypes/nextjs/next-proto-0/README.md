@@ -2,7 +2,7 @@
 
 An introduction to Next JS + next-pwa
 
-To run this, open a terminal in the `next-proto-0` directory, do a `npm run build`, then a `npm run dev`
+To run this, open a terminal in the `next-proto-0` directory, do an `npm install`, `npm run build`, `npm run dev`
 
 - [Next JS](https://nextjs.org/)
   - Underlying architecture
