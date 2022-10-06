@@ -4,7 +4,7 @@ Author: [Isaiah Lathem](https://github.com/ilathem)
 
 This folder contains a list of research related to nextjs, a fullstack react framework by Vercel.
 
-You can read more about here [here](https://nextjs.org/)
+You can read more about nextjs [here](https://nextjs.org/)
 
 ## Folder Structure:
 
@@ -13,4 +13,4 @@ You can read more about here [here](https://nextjs.org/)
 - next-proto-1
   This is how I picture one version of the Field Day project, where the webUI and the phone version are combined into one app, just designated by separate endpoints in the pages directory.
 - next-proto-2
-  This is how I picture another version of the Field Day project, where the webUI and the phone version are separated into two different applications, each with their own separate deployment url,
+  This is how I picture another version of the Field Day project, where the webUI and the phone version are separated into two different applications, each with their own separate deployment url.
