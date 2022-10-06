@@ -1,0 +1,11 @@
+# git ignore for next-proto-0
+prototypes/nextjs/next-proto-0/next-pwa-demo/package-lock.json
+prototypes/nextjs/next-proto-0/next-pwa-demo/node_modules
+prototypes/nextjs/next-proto-0/next-pwa-demo/*.vercel
+# pwa files to ignore so they don't get cached in deployment
+prototypes/nextjs/next-proto-0/next-pwa-demo/public/sw.js
+prototypes/nextjs/next-proto-0/next-pwa-demo/public/workbox-*.js
+prototypes/nextjs/next-proto-0/next-pwa-demo/public/worker-*.js
+prototypes/nextjs/next-proto-0/next-pwa-demo/public/sw.js.map
+prototypes/nextjs/next-proto-0/next-pwa-demo/public/workbox-*.js.map
+prototypes/nextjs/next-proto-0/next-pwa-demo/public/worker-*.js.map
