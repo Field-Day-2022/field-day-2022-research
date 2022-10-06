@@ -1,11 +1,11 @@
 # git ignore for next-proto-0
-prototypes/nextjs/next-proto-0/next-pwa-demo/package-lock.json
-prototypes/nextjs/next-proto-0/next-pwa-demo/node_modules
-prototypes/nextjs/next-proto-0/next-pwa-demo/*.vercel
+prototypes/nextjs/next-proto-0/package-lock.json
+prototypes/nextjs/next-proto-0/node_modules
+prototypes/nextjs/next-proto-0/*.vercel
 # pwa files to ignore so they don't get cached in deployment
-prototypes/nextjs/next-proto-0/next-pwa-demo/public/sw.js
-prototypes/nextjs/next-proto-0/next-pwa-demo/public/workbox-*.js
-prototypes/nextjs/next-proto-0/next-pwa-demo/public/worker-*.js
-prototypes/nextjs/next-proto-0/next-pwa-demo/public/sw.js.map
-prototypes/nextjs/next-proto-0/next-pwa-demo/public/workbox-*.js.map
-prototypes/nextjs/next-proto-0/next-pwa-demo/public/worker-*.js.map
+prototypes/nextjs/next-proto-0/public/sw.js
+prototypes/nextjs/next-proto-0/public/workbox-*.js
+prototypes/nextjs/next-proto-0/public/worker-*.js
+prototypes/nextjs/next-proto-0/public/sw.js.map
+prototypes/nextjs/next-proto-0/public/workbox-*.js.map
+prototypes/nextjs/next-proto-0/public/worker-*.js.map

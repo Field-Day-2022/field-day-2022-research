@@ -10,6 +10,50 @@ To run this, open a terminal in the `next-proto-0` directory, do a `npm run buil
   - PWA adapter, uses [Workbox](https://developer.chrome.com/docs/workbox/)
 - [Getting rid of babel linting warnings](https://stackoverflow.com/questions/68163385/parsing-error-cannot-find-module-next-babel)
 
+## Steps to get going from scratch:
+1. run `npx create-next-app next-proto-0` to create the Next app
+2. run `npm i next-pwa` to install next-pwa 
+3. Go to [https://www.simicart.com/manifest-generator.html/](https://www.simicart.com/manifest-generator.html/) to generate the manifest  
+   1. Make sure Display is "Standalone"
+   2. Once downloaded, unzip and copy contents into the public directory
+   3. Rename `manifest.webmanifest` to `manifest.json`
+4. Create a new file `_document.js` under the pages directory, and paste in the following:
+```js
+import Document, { Html, Head, Main, NextScript } from "next/document";
+
+class MyDocument extends Document {
+  render() {
+    return (
+      <Html>
+        <Head>
+          <link rel="manifest" href="/manifest.json" />
+          <link rel="apple-touch-icon" href="/icon.png"></link>
+          <meta name="theme-color" content="#fff" />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
+}
+
+export default MyDocument;
+```
+5. Go to `next.config.js` and replace the contents with this:
+```js
+/** @type {import('next').NextConfig} */
+const withPWA = require('next-pwa')({
+  dest: 'public'
+})
+
+module.exports = withPWA({
+  // next.js config
+})
+```
+6. Now run `npm run build` to build the PWA, then `npm run dev` to start it locally.
+
 ## Auto-Generated ReadME:
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
