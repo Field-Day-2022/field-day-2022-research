@@ -12,7 +12,7 @@ To run this, open a terminal in the `next-proto-0` directory, do an `npm install
 
 ## Steps to get going from scratch:
 1. run `npx create-next-app next-proto-0` to create the Next app
-2. run `npm i next-pwa` to install next-pwa 
+2. cd into `next-proto-0` and run `npm i next-pwa` to install next-pwa 
 3. Go to [https://www.simicart.com/manifest-generator.html/](https://www.simicart.com/manifest-generator.html/) to generate the manifest  
    1. Make sure Display is "Standalone"
    2. Once downloaded, unzip and copy contents into the public directory
@@ -52,6 +52,14 @@ module.exports = withPWA({
   // next.js config
 })
 ```
+6. To get rid of compiler linting warnings, replace the contents of `.eslintrc.json` with the following:
+
+```json
+{
+  "extends": ["next/babel","next/core-web-vitals"]
+}
+```
+
 6. Now run `npm run build` to build the PWA, then `npm run dev` to start it locally.
 
 ## Auto-Generated ReadME:
