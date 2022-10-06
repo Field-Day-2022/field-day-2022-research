@@ -3,7 +3,7 @@
     "background_color": "#ffb310",
     "display": "standalone",
     "scope": "/",
-    "start_url": "/",
+    "start_url": "/PhoneUI",
     "name": "Field Day Demo",
     "short_name": "Field Day",
     "description": "Demonstration of Field Day App",
