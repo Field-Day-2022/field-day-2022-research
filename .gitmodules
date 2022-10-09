@@ -4,3 +4,6 @@
 [submodule "prototypes/checkers-pwa"]
 	path = prototypes/checkers-pwa
 	url = https://github.com/IanSkelskey/checkers-pwa
+[submodule "prototypes/tac-tac-toe-pwa"]
+	path = prototypes/tac-tac-toe-pwa
+	url = https://github.com/ZacharyJacobson/Tic-Tac-Toe-PWA
