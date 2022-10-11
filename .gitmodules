@@ -7,3 +7,6 @@
 [submodule "prototypes/tac-tac-toe-pwa"]
 	path = prototypes/tac-tac-toe-pwa
 	url = https://github.com/ZacharyJacobson/Tic-Tac-Toe-PWA
+[submodule "prototypes/ilathem-blitz"]
+	path = prototypes/ilathem-blitz
+	url = https://github.com/ilathem/Blitz-Starter
