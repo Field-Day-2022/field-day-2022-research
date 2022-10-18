@@ -10,3 +10,6 @@
 [submodule "prototypes/ilathem-blitz"]
 	path = prototypes/ilathem-blitz
 	url = https://github.com/ilathem/Blitz-Starter
+[submodule "prototypes/advanced-pwa"]
+	path = prototypes/advanced-pwa
+	url = https://github.com/IanSkelskey/advanced-pwa/
