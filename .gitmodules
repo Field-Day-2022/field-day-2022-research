@@ -13,3 +13,9 @@
 [submodule "prototypes/advanced-pwa"]
 	path = prototypes/advanced-pwa
 	url = https://github.com/IanSkelskey/advanced-pwa/
+[submodule "prototypes/TrinomialFactoringPWA"]
+	path = prototypes/TrinomialFactoringPWA
+	url = https://github.com/IanSkelskey/TrinomialFactoringPWA.git
+[submodule "prototypes/Photography-Portfolio"]
+	path = prototypes/Photography-Portfolio
+	url = git@github.com:IanSkelskey/Photography-Portfolio.git
